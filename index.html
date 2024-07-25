@@ -4,12 +4,16 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio</title>
 </head>
 
@@ -46,97 +50,322 @@
             </div>
         </div>
     </section>
-   
-      
-            <section class="about py-5">
 
-                <div class="container py-5">
-                    <div class="row">
 
-                        <div class="col-lg-5">
-                            <img src="./dd.png" class="img-fluid" alt="">
+    <section class="about py-5">
+
+        <div class="container py-5">
+            <div class="row">
+
+                <div class="col-lg-5">
+                    <img src="./imgs/dd.png" data-aos="zoom-out-right" data-aos-duration="1000" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h1 data-aos="zoom-in-down" data-aos-duration="1000">About Me</h1>
+                    <h6 data-aos="zoom-out-down" data-aos-duration="1000">Junior Java Developer</h6>
+                    <div class="paragraph-container">
+                        <p class="py-3" data-aos="zoom-out-left" data-aos-duration="1000"> As a <span
+                                class="BOLD">Junior Web Developer</span>,
+                            My primary goal is
+                            to
+                            contribute positively to a team while
+                            continuously learning and honing my skills in a collaborative environment. Eager to
+                            leverage
+                            my education in software development methodologies to contribute to innovative
+                            projects and
+                            gain hands-on experience in a professional setting. Committed to continuous learning
+                            and
+                            growth in the field of Software development to ensure a meaningful impact in the
+                            industry.
+                            collaborate with teammates, and grow professionally as a developer.</p>
+
+                        <div class="progress my-4">
+                            <div class="pro-value3">
+                                <p>Java / OOP<span class="text-white float-right ">98%</span></p>
+                            </div>
                         </div>
-                        <div class="col-lg-7">
-                            <h1>About Me</h1>
-                            <p>Junior Java Developer</p>
-                            <div class="paragraph-container">
-                                <p class="py-3"> As a <span class="BOLD">Junior Web Developer</span>, My primary goal is
-                                    to
-                                    contribute positively to a team while
-                                    continuously learning and honing my skills in a collaborative environment. Eager to
-                                    leverage
-                                    my education in software development methodologies to contribute to innovative
-                                    projects and
-                                    gain hands-on experience in a professional setting. Committed to continuous learning
-                                    and
-                                    growth in the field of Software development to ensure a meaningful impact in the
-                                    industry.
-                                    collaborate with teammates, and grow professionally as a developer.</p>
-
-                                    <div class="progress my-4">
-                                        <div class="pro-value3">
-                                            <p>Java / OOP<span class="text-white float-right ">98%</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="progress my-4">
-                                        <div class="pro-value1">
-                                            <p>Bootstrap / MySQL <span class="text-white float-right ">70%</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="progress my-4">
-                                        <div class="pro-value5">
-                                            <p>Spring Boot / Angular <span class="text-white float-right ">75%</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="progress my-4">
-                                        <div class="pro-value2">
-                                            <p>HTML / CSS <span class="text-white float-right ">95%</span></p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="progress my-4">
-                                        <div class="pro-value4">
-                                            <p>Javascript / jQuery<span class="text-white float-right ">65%</span></p>
-                                        </div>
-                                    </div>
-                                   
-                                    <div class="progress my-4">
-                                        <div class="pro-value6">
-                                            <p>Restful API / Maven<span class="text-white float-right ">80%</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="progress my-4">
-                                        <div class="pro-value6">
-                                            <p>Git & GitHub<span class="text-white float-right ">80%</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="text-center">
-                                    <input type="button" class="btn1 mr-3" value="Download C.V">
-                                    <input type="button" class="btn2" value="Contact Me">
-                                </div>
+                        <div class="progress my-4">
+                            <div class="pro-value1">
+                                <p>Bootstrap / MySQL <span class="text-white float-right ">70%</span></p>
+                            </div>
+                        </div>
+                        <div class="progress my-4">
+                            <div class="pro-value5">
+                                <p>Spring Boot / Angular <span class="text-white float-right ">75%</span></p>
+                            </div>
+                        </div>
+                        <div class="progress my-4">
+                            <div class="pro-value2">
+                                <p>HTML / CSS <span class="text-white float-right ">95%</span></p>
                             </div>
                         </div>
 
+                        <div class="progress my-4">
+                            <div class="pro-value4">
+                                <p>Javascript / jQuery<span class="text-white float-right ">65%</span></p>
+                            </div>
+                        </div>
+
+                        <div class="progress my-4">
+                            <div class="pro-value6">
+                                <p>Restful API / Maven<span class="text-white float-right ">80%</span></p>
+                            </div>
+                        </div>
+                        <div class="progress my-4">
+                            <div class="pro-value6">
+                                <p>Git & GitHub<span class="text-white float-right ">80%</span></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <input type="button" class="btn1 mr-3" value="Download C.V">
+                            <input type="button" class="btn2" value="Contact Me">
+                        </div>
                     </div>
                 </div>
 
-            </section>
-      
+            </div>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-            crossorigin="anonymous"></script>
+    </section>
+    <section class="service py-5 bg-light">
+        <div class="container py-5">
+            <h1 class="text-center pb-5" data-aos="zoom-in-down" data-aos-duration="1000">Service</h1>
+            <div class="row pb-3">
+                <div class="col-lg-4  mb-3">
+                    <div class="card text-center py-3" data-aos="fade-down-right" data-aos-duration="1000">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span>
+                                    <i class="fas fa-desktop"></i>
+                                </span>
+                            </div>
+                            <h4 class="font-weight-blood pb-2">Web Design</h4>
+                            <p>
+                                growth in the field of Software development to ensure a meaningful impact in the
+                                industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  mb-3">
+                    <div class="card text-center py-3" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span>
+                                    <i class="fa fa-usd" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <h4 class="font-weight-blood pb-2">Web Design</h4>
+                            <p>
+                                growth in the field of Software development to ensure a meaningful impact in the
+                                industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  mb-3">
+                    <div class="card text-center py-3" data-aos="fade-down-left" data-aos-duration="1000">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span>
+                                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <h4 class="font-weight-blood pb-2">Web Design</h4>
+                            <p>
+                                growth in the field of Software development to ensure a meaningful impact in the
+                                industry.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
+            </div>
+            <div class="row">
+                <div class="col-lg-4  mb-3">
+                    <div class="card text-center py-3" data-aos="fade-up-right" data-aos-duration="1000">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span>
+                                    <i class="fa fa-youtube"></i>
+                                </span>
+                            </div>
+                            <h4 class="font-weight-blood pb-2">Web Design</h4>
+                            <p>
+                                growth in the field of Software development to ensure a meaningful impact in the
+                                industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  mb-3">
+                    <div class="card text-center py-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span>
+                                    <i class="fa fa-heart"></i>
+                                </span>
+                            </div>
+                            <h4 class="font-weight-blood pb-2">Web Design</h4>
+                            <p>
+                                growth in the field of Software development to ensure a meaningful impact in the
+                                industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  mb-3">
+                    <div class="card text-center py-3" data-aos="fade-up-left" data-aos-duration="1000">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span>
+                                    <i class="fa fa-camera"></i>
+                                </span>
+                            </div>
+                            <h4 class="font-weight-blood pb-2">Web Design</h4>
+                            <p>
+                                growth in the field of Software development to ensure a meaningful impact in the
+                                industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="portfolio py-5">
+        <div class="container py-5">
+            <h1 class="text-center pb-3" data-aos="zoom-in-down" data-aos-duration="1000">My Latest Projects</h1>
+            <div class="control text-center py-4">
+                <ul>
+                    <li class="btn1 button active mr-2" data-filter="filter" data-aos="fade-right" data-aos-duration="1000">All</li>
+                    <li class="btn1 button active mr-2" data-filter="Brand" data-aos="zoom-in" data-aos-duration="1000">Brand</li>
+                    <li class="btn1 button active mr-2" data-filter="Design" data-aos="zoom-in" data-aos-duration="1000">Design</li>
+                    <li class="btn1 button active mr-2" data-filter="Graphic"data-aos="fade-left" data-aos-duration="1000">Graphic</li>
+                </ul>
+            </div>
+            <div class="row py-4">
+                <div class="col-lg-4">
+                    <div class="item">
+                        <img src="./imgs/anime.png" class="img-fluid filter Brand" alt="" data-aos="fade-down-right" data-aos-duration="1000" >
+                        <span><i class="fa fa-play-circle-o" data-toggle="modal" data-target="#portfoliomodal"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item">
+                        <img src="./imgs/home.png" class="img-fluid  filter" alt="" data-aos="zoom-in" data-aos-duration="1000">
+                        <span><i class="fa fa-play-circle-o" data-toggle="modal" data-target="#portfoliomodal3"></i></span>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="item">
+                        <img src="./imgs/lead.png" class="img-fluid  filter" alt="" data-aos="fade-down-left" data-aos-duration="1000">
+                        <span><i class="fa fa-play-circle-o" data-toggle="modal" data-target="#portfoliomodal1"></i></span>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal1" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="container-fluid py-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+
+                            <img src="./imgs/lead.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <input type="button" class="btn1 mr-3" value="View Detail"
+                                onclick="window.location.href='./template/home.html'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="container-fluid py-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <img src="./imgs/anime.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <input type="button" class="btn1 mr-3" value="View Detail"
+                                onclick="window.location.href='./design/index.html';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade mt-5" id="portfoliomodal3" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content text-center">
+                <div class="container-fluid py-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                           
+                            <img src="./imgs/home.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./imgs/login.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./imgs/sms.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./imgs/change.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./imgs/sms1.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./imgs/sms2.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./imgs/sms3.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./imgs/sms4.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <img src="./imgs/sms5.png" class="img-fluid py-3" id="modalImage" alt="">
+                            <!-- <input type="button" class="btn1 mr-3" value="View Detail"
+                                onclick="window.location.href='./design/index.html';"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".button").click(function () {
+                var value = $(this).attr("data-filter");
+
+                if (value === "all") {
+                    $(".filter").show(100);
+                } else {
+                    $(".filter").not("." + value).hide(1000);
+                    $(".filter").filter("." + value).show(1000);
+                }
+
+                // Set active class on clicked button
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+
+            // Click event for any button inside ul
+            $("ul").on('click', '.button', function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     -->
-   
+
 </body>
 
 </html>
